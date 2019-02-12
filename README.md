@@ -1,14 +1,18 @@
 # Martha-bot
+![Status](https://img.shields.io/badge/status-development-succes.svg)
+![Platform](https://img.shields.io/badge/platform-linux%20|%20windows-lightgrey.svg)
+![Status](https://img.shields.io/badge/windows-unstable-critical.svg)
+
 Um Chatbot para diversas plataformas e usabilidades.
 
 ## Pré-requisitos
 [![Python 3.6](https://img.shields.io/badge/python-3.6-blue.svg)](https://www.python.org/downloads/release/python-360/)
-[![Python 3.6](https://img.shields.io/badge/Telepot-12.7-informational.svg)](https://pypi.org/project/telepot/)
+[![Telepot](https://img.shields.io/badge/telepot-12.7-blue.svg)](https://pypi.org/project/telepot/)
 
 Para utilizar o arquivo principal e somente conversar com o bot  pelo terminal, não é necessario baixar nenhuma biblioteca para o python. Mas para conversar pelo telegram, tendo seu prorpio bot e mini servidor para rodar o arquivo telegram.py, será necessario baixar a API Telepot.
 ### Linux
 * Para linux não é necessario instalar nada para utilizar o bot no terminal.
-* Para utilizar o bot no Telegram é necessario baixar a API Telepot.
+* Para iniciar o bot para o Telegram é necessario baixar a API Telepot.
 
 ### Windows
 Bot ainda um pouco instavel no Windows.
