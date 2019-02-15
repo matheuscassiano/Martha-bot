@@ -5,6 +5,11 @@
 
 Um Chatbot para diversas plataformas e usabilidades.
 
+<img src="https://github.com/matheuscassiano9/Martha-bot/blob/master/imagens/Stickers/Alice%20Fox/1.png" width=120/><img src="https://github.com/matheuscassiano9/Martha-bot/blob/master/imagens/Stickers/Alice%20Fox/10.png" width=120/>
+<img src="https://github.com/matheuscassiano9/Martha-bot/blob/master/imagens/Stickers/Alice%20Fox/11.png" width=120/>
+<img src="https://github.com/matheuscassiano9/Martha-bot/blob/master/imagens/Stickers/Alice%20Fox/12.png" width=120/>
+<img src="https://github.com/matheuscassiano9/Martha-bot/blob/master/imagens/Stickers/Alice%20Fox/13.png" width=120/><h6>Images: Alice Fox</h6>
+
 ## Pré-requisitos
 [![Python 3.6](https://img.shields.io/badge/python-3.6-blue.svg)](https://www.python.org/downloads/release/python-360/)
 [![Telepot](https://img.shields.io/badge/telepot-12.7-blue.svg)](https://pypi.org/project/telepot/)
