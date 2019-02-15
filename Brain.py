@@ -22,10 +22,10 @@ class Chatbot():
 
     def escuta(self,frase=None):
         if frase == None:# Se não ouvef nada armazenado na variavel 'frase' ele irá exigir que algo seja digitado para que assim ela tenho um valor(str)
-            frase = str(input('\033[36m'+'user'+'\033[35m'+'@martha'+'\033[0;0m'+':$ ')).lower()# Texto que será exibido ates do campo onde será incerido a frase do usuario, "\033[35m" e os outros são para modificar a cor do texto
-      #  frase = str(frase)# Esta parte recebe o que foi digitado pelo usuario e converte em uma string
-      #  frase = frase.lower()# Isso faz com que a frase fique toda em menusculo para facilitar o reconhecimento da frase
-      # strip() retira os espaços indesejados da string
+            frase = str(input('\033[36muser\033[35m@martha\033[0;0m:$ ')).lower()# Texto que será exibido ates do campo onde será incerido a frase do usuario, "\033[35m" e os outros são para modificar a cor do texto
+            # str(frase)# Esta parte recebe o que foi digitado pelo usuario e converte em uma string
+            # lower()# Isso faz com que a frase fique toda em menusculo para facilitar o reconhecimento da frase
+            # strip() retira os espaços indesejados de uma string
         frase = frase.strip().replace('é','eh') # E isso troca todo 'é' por 'eh' para evitar problemas com carecteris especiais
         return frase# Em seguida ele retorna a frase depois destes processos
 
@@ -33,11 +33,11 @@ class Chatbot():
         if frase in self.frases:
             return self.frases[frase]
         if 'data' in frase: # Se a mensagem digitada pelo úsuario for data ele dira a data e hora do dia
-            day = datetime.datetime.now().strftime("%d/%m/%Y")
-            hour = datetime.datetime.now().strftime("%H:%M")
+            day = datetime.datetime.now().strftime("%d/%m/%Y") # Data atual
+            hour = datetime.datetime.now().strftime("%H:%M") # Hora atual
             return ('Data: {} Hora: {}'.format(day,hour)) # E exibi as informações na tela em forma de texto
 
-        if ('kkk' in frase) or ('kj' in frase):
+        if 'kk' in frase:
             return 'kklkkj'
 
         if 'obrigad' in frase:# Responde 'De nada' quando é digitado obrigado(a)
@@ -106,5 +106,5 @@ class Chatbot():
             except FileNotFoundError:
                 s.Popen(['xdg-open',comando])       
         else:# Se não for o caso ele irá exibir uma frase como resposta
-            print('\033[33m'+'rbot'+'\033[35m'+'@martha'+'\033[0;0m'+':$ '+frase)# Como já mencionado assima "\033[35m" e as demais sentensas semelhantes são para colorir o texto que será exibido
+            print('\033[33mrbot\033[35m@martha\033[0;0m:$ '+frase)# Como já mencionado assima "\033[35m" e as demais sentensas semelhantes são para colorir o texto que será exibido
         self.historico.append(frase)
