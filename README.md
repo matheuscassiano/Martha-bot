@@ -49,10 +49,7 @@ Para **Windows** será mais facil baixar os arquivos diretamente do **Git** e em
 ### Exemplo
 
 Apos iniciar o arquivo **_main.py_** você pode simular uma conversa:
->**user@martha:** Oi
-
->**rbot:@martha:** Olá
-
->**user:@martha:** Como vai?
-
->**rbot:@martha:** Vou bem e você?
+>**user@martha:** Oi<br>
+>**rbot:@martha:** Olá<br>
+>**user:@martha:** Como vai?<br>
+>**rbot:@martha:** Vou bem e você?<br>
