@@ -29,7 +29,7 @@ Bot ainda um pouco instavel no Windows.
 Se preferir você pode usar o comando **git clone** para baixar os arquivos, ou simplesmente baixar os arquivos diretamente do **GitHub**
 
 ```
-git clone https://github.com/matheuscassiano9/Martha-bot.git
+git clone https://github.com/matheuscassiano/Martha-bot.git
 ```
 
 Entre na pasta e inicie o codigo
