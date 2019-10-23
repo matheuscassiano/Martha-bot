@@ -40,6 +40,7 @@ python3 main.py
 ```
 ou para poder ativar o bot no Telegram
 ```
+sudo pip3 install telepot
 python3 telegram.py
 ```
 ### Windows
